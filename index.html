@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="styles.css" type="text/css" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="app.js" defer></script>
+		<title>TO DO LIST</title>
+	</head>
+
+	<body>
+		<!-- Titre -->
+		<h1 id="main-title">My To-Do List</h1>
+		<!--Main input-->
+		<h2 id="question">NEXT TARGET ?</h2>
+		<div id="main">
+			<input
+				required
+				type="text"
+				placeholder="Enter next target"
+				id="input-task"
+			/>
+			<button type="button" id="newTask"></button>
+		</div>
+		<!-- Liste des tâches à faire-->
+		<div>
+			<h2>CURRENT MISSIONS</h2>
+			<ul id="todo-list"></ul>
+		</div>
+		<!-- Liste des tâches complétées-->
+		<div>
+			<h2>COMPLETED MISSIONS</h2>
+			<ul id="done-list"></ul>
+		</div>
+	</body>
+</html>
